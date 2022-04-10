@@ -596,6 +596,7 @@ img {
 }
 
 .footer-text {
+  display: block;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -770,6 +771,7 @@ margin-bottom: 10px;
 
 
 .signup-form-title{
+  display: block;
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -844,6 +846,7 @@ margin-bottom: 10px;
 .signup-checkbox-field{
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.71;
