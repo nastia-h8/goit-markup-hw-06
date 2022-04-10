@@ -501,23 +501,19 @@
             ></textarea>
           </label>
 
-          <div class="signup-form-checkbox-wrapper">
-            <label for="policy-checkbox" class="signup-checkbox-field">
-              <input
-                type="checkbox"
-                name="accept-policy"
-                id="policy-checkbox"
-                class="signup-checkbox-input visually-hidden"
-                required
-              />
-              <svg class="checkbox-icon" width="16" height="15">
-                <use href="./images/sprite.svg#check-icon"></use>
-              </svg>
-              Соглашаюсь с рассылкой и принимаю&nbsp;<a href="" class="signup-checkbox-link"
-                >Условия договора</a
-              >
-            </label>
-          </div>
+          <label class="signup-checkbox-field">
+            <input
+              type="checkbox"
+              name="accept-policy"
+              class="signup-checkbox-input visually-hidden"
+              required
+            />
+            <svg class="checkbox-icon" width="16" height="15">
+              <use href="./images/sprite.svg#check-icon"></use>
+            </svg>
+            Соглашаюсь с рассылкой и принимаю&nbsp;
+            <a href="" class="signup-checkbox-link">Условия договора</a>
+          </label>
 
           <button type="submit" class="submit-btn">Отправить</button>
         </form>
